@@ -1,8 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was an example of [react-player](https://github.com/cookpete/react-player)
+
+
 
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i`
+
+install all dependencies first. then:
 
 ### `npm start`
 
