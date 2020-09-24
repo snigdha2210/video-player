@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `react-player-demo`
+
+This project was an example of [react-player](https://github.com/cookpete/react-player)
+
+
+
+### `npm i`
+
+install all dependencies first. then:
+
 
 ## Available Scripts
 
@@ -24,3 +33,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+FOR MORE INFO :(https://github.com/cookpete/react-player)
