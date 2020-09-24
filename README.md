@@ -2,7 +2,7 @@
 
 This project was an example of [react-player](https://github.com/cookpete/react-player)
 
-This project is done with new react hooks like useRef and functional components. https://reactjs.org/docs/hooks-reference.html#useref
+This project is done with react hooks like useRef and functional components. https://reactjs.org/docs/hooks-reference.html#useref
 
 
 
