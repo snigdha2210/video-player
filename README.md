@@ -1,13 +1,15 @@
-This project was an example of [react-player](https://github.com/cookpete/react-player)
+This project was an example of ###[react-player](https://github.com/cookpete/react-player)
 
+
+
+### `npm i`
+
+install all dependencies first. then:
 
 
 ## Available Scripts
 
 In the project directory, you can run:
-### `npm i`
-
-install all dependencies first. then:
 
 ### `npm start`
 
