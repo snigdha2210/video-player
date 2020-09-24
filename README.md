@@ -1,4 +1,4 @@
-### `[react-player]`
+### `[react-player](https://github.com/cookpete/react-player)`
 
 This project was an example of [react-player](https://github.com/cookpete/react-player)
 
