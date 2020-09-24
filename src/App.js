@@ -159,40 +159,41 @@ function App() {
 
   return (
     <div className="App App-header" >
+      <Row className="pt-5 justify-content-center align-items-end">
+        <Col xs="7" className="title">
+          <span>React player</span>
+        </Col>
+      </Row>
       <Row className="justify-content-center h-100 align-items-center">
-        <Col xs="12" className="h-50">
-          <div className="player-wrapper h-100" ref={playerWrapper}>
-            <Row className="h-100">
-              <Col xs="12">
-                <ReactPlayer
-                  className="react-player"
-                  ref={player}
-                  url="https://www.youtube.com/watch?v=Sv6dMFF_yts"
-                  width="100%"
-                  height="100%"
-                  light="https://img.youtube.com/vi/Sv6dMFF_yts/0.jpg"
-                  pip={state.pip}
-                  playing={state.playing}
-                  controls={state.controls}
-                  loop={state.loop}
-                  playbackRate={state.playbackRate}
-                  volume={state.volume}
-                  muted={state.muted}
-                  onStart={() => setState({ ...state, visible_button_refresh: true })}
-                  onPlay={handlePlay}
-                  onEnablePIP={handleEnablePIP}
-                  onDisablePIP={handleDisablePIP}
-                  onPause={handlePause}
-                  onBuffer={() => console.log("onBuffer")}
-                  onSeek={(e) => console.log("onSeek", e)}
-                  onEnded={handleEnded}
-                  onError={(e) => console.log("onError", e)}
-                  onProgress={handleProgress}
-                  onDuration={handleDuration}
-                  onReady={() => handlePlayPause()}
-                />
-              </Col>
-            </Row>
+        <Col xs="7" className="h-50">
+          <div className="player-wrapper h-100 d-flex justify-content-center" ref={playerWrapper}>
+            <ReactPlayer
+              className="react-player"
+              ref={player}
+              url="https://www.youtube.com/watch?v=Sv6dMFF_yts"
+              width="100%"
+              height="100%"
+              light="https://img.youtube.com/vi/Sv6dMFF_yts/0.jpg"
+              pip={state.pip}
+              playing={state.playing}
+              controls={state.controls}
+              loop={state.loop}
+              playbackRate={state.playbackRate}
+              volume={state.volume}
+              muted={state.muted}
+              onStart={() => setState({ ...state, visible_button_refresh: true })}
+              onPlay={handlePlay}
+              onEnablePIP={handleEnablePIP}
+              onDisablePIP={handleDisablePIP}
+              onPause={handlePause}
+              onBuffer={() => console.log("onBuffer")}
+              onSeek={(e) => console.log("onSeek", e)}
+              onEnded={handleEnded}
+              onError={(e) => console.log("onError", e)}
+              onProgress={handleProgress}
+              onDuration={handleDuration}
+              onReady={() => handlePlayPause()}
+            />
             {state.visible_button_refresh && (
               <Row className="video-controller justify-content-between">
                 <div className=" pl-1 d-flex align-items-center ">
