@@ -8,7 +8,7 @@ import "./common/scss/video.scss"
 import fullScreenOn from "./common/images/fullscreen.svg"
 import fullScreenExit from "./common/images/fullscreen-exit.svg"
 import volumeUp from "./common/images/volume-up.svg"
-
+import { Slider, Direction } from 'react-player-controls'
 function App() {
 
   const [state, setState] = useState({
@@ -156,6 +156,25 @@ function App() {
     }
     setState({ ...state, fullscreen: !state.fullscreen });
   };
+  const SliderBar = ({ direction, value, style }) => (
+    <div
+      style={Object.assign({}, {
+        position: 'absolute',
+        background: "GRAY",
+        borderRadius: 4,
+      }, direction === Direction.HORIZONTAL ? {
+        top: 0,
+        bottom: 0,
+        left: 0,
+        width: `${value * 100}%`,
+      } : {
+          right: 0,
+          bottom: 0,
+          left: 0,
+          height: `${value * 100}%`,
+        }, style)}
+    />
+  )
 
   return (
     <div className="App App-header" >
@@ -206,6 +225,7 @@ function App() {
                 <div className=" d-flex align-items-center">
                   <input
                     type="range"
+                    className="slider"
                     min={0}
                     max={0.999999}
                     step="any"
