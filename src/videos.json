@@ -6,8 +6,8 @@
     "Source (Year)": null,
     "Source--URL": null,
     "Video Available at URL": null,
-    "Time Window at URL": "Start Time (hh:mm:ss)",
-    "Column8": "End Time (hh:mm:ss)",
+    "startTime": "Start Time (hh:mm:ss)",
+    "endTime": "End Time (hh:mm:ss)",
     "Notes": null
   },
   {
@@ -17,8 +17,8 @@
     "Source (Year)": "Hangover (2009)",
     "Source--URL": "https://www.imdb.com/title/tt1119646/?ref_=nv_sr_1",
     "Video Available at URL": "https://www.youtube.com/watch?v=xlrqaAjBwS4",
-    "Time Window at URL": "00:00:08",
-    "Column8": "00:03:05",
+    "startTime": "00:00:08",
+    "endTime": "00:03:05",
     "Notes": null
   },
   {
@@ -28,8 +28,8 @@
     "Source (Year)": "When Harry Met Sally (1989)",
     "Source--URL": "https://www.imdb.com/title/tt0098635/?ref_=nv_sr_1",
     "Video Available at URL": "https://www.youtube.com/watch?v=F-bsf2x-aeE",
-    "Time Window at URL": "00:00:00",
-    "Column8": "00:02:52",
+    "startTime": "00:00:00",
+    "endTime": "00:02:52",
     "Notes": null
   },
   {
@@ -37,10 +37,10 @@
     "Video-ID": 11,
     "Duration (in ms)": 120000,
     "Source (Year)": "n.a. -- blue screen",
-    "Source--URL": " not applicable (n.a.)",
-    "Video Available at URL": "not applicable",
-    "Time Window at URL": "n.a.",
-    "Column8": "n.a.",
+    "Source--URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
+    "Video Available at URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
+    "startTime": "n.a.",
+    "endTime": "n.a.",
     "Notes": null
   },
   {
@@ -50,8 +50,8 @@
     "Source (Year)": "Europe Travel Skills (2013) ",
     "Source--URL": "https://www.youtube.com/watch?v=qUHLCobRgaE",
     "Video Available at URL": "https://www.youtube.com/watch?v=qUHLCobRgaE",
-    "Time Window at URL": "00:00:00",
-    "Column8": "00:01:58",
+    "startTime": "00:00:00",
+    "endTime": "00:01:58",
     "Notes": null
   },
   {
@@ -61,8 +61,8 @@
     "Source (Year)": "Matcha: The way of Tea (2012)",
     "Source--URL": "https://www.youtube.com/watch?v=IC8zogRPogQ",
     "Video Available at URL": "https://www.youtube.com/watch?v=IC8zogRPogQ",
-    "Time Window at URL": "00:19:05",
-    "Column8": "00:21:45",
+    "startTime": "00:19:05",
+    "endTime": "00:21:45",
     "Notes": null
   },
   {
@@ -70,10 +70,10 @@
     "Video-ID": 12,
     "Duration (in ms)": 120000,
     "Source (Year)": "n.a. -- blue screen",
-    "Source--URL": "not applicable",
-    "Video Available at URL": "not applicable",
-    "Time Window at URL": "n.a.",
-    "Column8": "n.a.",
+    "Source--URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
+    "Video Available at URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
+    "startTime": "n.a.",
+    "endTime": "n.a.",
     "Notes": null
   },
   {
@@ -83,8 +83,8 @@
     "Source (Year)": "Relaxing Music with Beach (2011)",
     "Source--URL": "https://www.youtube.com/watch?v=tnHlB8aQp3Y",
     "Video Available at URL": "https://www.youtube.com/watch?v=tnHlB8aQp3Y",
-    "Time Window at URL": "00:00:00",
-    "Column8": "00:02:25",
+    "startTime": "00:00:00",
+    "endTime": "00:02:25",
     "Notes": null
   },
   {
@@ -94,8 +94,8 @@
     "Source (Year)": "Natural World: Zambezi (2012)",
     "Source--URL": "https://www.imdb.com/title/tt2496558/?ref_=fn_tt_tt_1",
     "Video Available at URL": "http://www.hddocumentary.com/bbc-natural-world-zambezi-2012/",
-    "Time Window at URL": "00:30:47",
-    "Column8": "00:33:13",
+    "startTime": "00:30:47",
+    "endTime": "00:33:13",
     "Notes": null
   },
   {
@@ -105,8 +105,8 @@
     "Source (Year)": "Shutter (2004)",
     "Source--URL": "https://www.imdb.com/title/tt0440803/?ref_=nv_sr_2",
     "Video Available at URL": "https://www.youtube.com/watch?v=dVbWL51L4Ms",
-    "Time Window at URL": "00:02:27 00:05:53",
-    "Column8": "00:04:46 00:06:51",
+    "startTime": "00:02:27 00:05:53",
+    "endTime": "00:04:46 00:06:51",
     "Notes": "Clip 1 and 2 stitched. Clip 1 --  1st scene.  Clip 2 --  2nd scene."
   },
   {
@@ -116,8 +116,8 @@
     "Source (Year)": "Mama (2008)",
     "Source--URL": "https://www.imdb.com/title/tt1315885/",
     "Video Available at URL": "https://www.youtube.com/watch?v=WRqS6pBC42w",
-    "Time Window at URL": "00:01:02",
-    "Column8": "00:03:26",
+    "startTime": "00:01:02",
+    "endTime": "00:03:26",
     "Notes": null
   },
   {
@@ -127,19 +127,8 @@
     "Source (Year)": "Great Barrier Reef (2012)",
     "Source--URL": "https://www.imdb.com/title/tt2198631/?ref_=ttep_ep2",
     "Video Available at URL": "https://www.dailymotion.com/video/xnkj6a",
-    "Time Window at URL": "00:14:16",
-    "Column8": "00:15:57",
-    "Notes": null
-  },
-  {
-    "Video-label": null,
-    "Video-ID": null,
-    "Duration (in ms)": null,
-    "Source (Year)": null,
-    "Source--URL": null,
-    "Video Available at URL": " ",
-    "Time Window at URL": null,
-    "Column8": null,
+    "startTime": "00:14:16",
+    "endTime": "00:15:57",
     "Notes": null
   }
 ]

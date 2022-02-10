@@ -9,6 +9,7 @@ import fullScreenOn from './common/images/fullscreen.svg';
 import fullScreenExit from './common/images/fullscreen-exit.svg';
 import volumeUp from './common/images/volume-up.svg';
 // import { Slider, Direction } from 'react-player-controls';
+
 function App() {
   const [state, setState] = useState({
     url: null,

@@ -29,10 +29,11 @@ body {
   margin: 0;
 }
 .player-wrapper .video-controller .play-pause {
-  background: #00a6ff;
-  border: 1px solid #ccc;
+  background: #000;
+  border: 1px solid rgb(255, 255, 255);
   padding: 5px;
   font-size: 10px;
+  color: #fff;
 }
 .player-wrapper .video-controller .time {
   font-size: 10px;
