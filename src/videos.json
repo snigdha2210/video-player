@@ -1,22 +1,11 @@
 [
   {
-    "Video-label": null,
-    "Video-ID": null,
-    "Duration (in ms)": null,
-    "Source (Year)": null,
-    "Source--URL": null,
-    "Video Available at URL": null,
-    "startTime": "Start Time (hh:mm:ss)",
-    "endTime": "End Time (hh:mm:ss)",
-    "Notes": null
-  },
-  {
     "Video-label": "amusing-1",
     "Video-ID": 1,
     "Duration (in ms)": 185583.333,
     "Source (Year)": "Hangover (2009)",
     "Source--URL": "https://www.imdb.com/title/tt1119646/?ref_=nv_sr_1",
-    "Video Available at URL": "https://www.youtube.com/watch?v=xlrqaAjBwS4",
+    "url": "https://www.youtube.com/watch?v=xlrqaAjBwS4",
     "startTime": "00:00:08",
     "endTime": "00:03:05",
     "Notes": null
@@ -27,7 +16,7 @@
     "Duration (in ms)": 173083.333,
     "Source (Year)": "When Harry Met Sally (1989)",
     "Source--URL": "https://www.imdb.com/title/tt0098635/?ref_=nv_sr_1",
-    "Video Available at URL": "https://www.youtube.com/watch?v=F-bsf2x-aeE",
+    "url": "https://drive.google.com/file/d/1N2n45R9LLaTg4yMag5-OaWARWbJp_dTE/view?usp=sharing",
     "startTime": "00:00:00",
     "endTime": "00:02:52",
     "Notes": null
@@ -38,7 +27,7 @@
     "Duration (in ms)": 120000,
     "Source (Year)": "n.a. -- blue screen",
     "Source--URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
-    "Video Available at URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
+    "url": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
     "startTime": "n.a.",
     "endTime": "n.a.",
     "Notes": null
@@ -49,7 +38,7 @@
     "Duration (in ms)": 118666.667,
     "Source (Year)": "Europe Travel Skills (2013) ",
     "Source--URL": "https://www.youtube.com/watch?v=qUHLCobRgaE",
-    "Video Available at URL": "https://www.youtube.com/watch?v=qUHLCobRgaE",
+    "url": "https://www.youtube.com/watch?v=qUHLCobRgaE",
     "startTime": "00:00:00",
     "endTime": "00:01:58",
     "Notes": null
@@ -60,7 +49,7 @@
     "Duration (in ms)": 160125,
     "Source (Year)": "Matcha: The way of Tea (2012)",
     "Source--URL": "https://www.youtube.com/watch?v=IC8zogRPogQ",
-    "Video Available at URL": "https://www.youtube.com/watch?v=IC8zogRPogQ",
+    "url": "https://www.youtube.com/watch?v=IC8zogRPogQ",
     "startTime": "00:19:05",
     "endTime": "00:21:45",
     "Notes": null
@@ -71,7 +60,7 @@
     "Duration (in ms)": 120000,
     "Source (Year)": "n.a. -- blue screen",
     "Source--URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
-    "Video Available at URL": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
+    "url": "https://www.youtube.com/watch?v=j5WdDUibqzs&ab_channel=AnotherWorld",
     "startTime": "n.a.",
     "endTime": "n.a.",
     "Notes": null
@@ -82,20 +71,9 @@
     "Duration (in ms)": 145125,
     "Source (Year)": "Relaxing Music with Beach (2011)",
     "Source--URL": "https://www.youtube.com/watch?v=tnHlB8aQp3Y",
-    "Video Available at URL": "https://www.youtube.com/watch?v=tnHlB8aQp3Y",
+    "url": "https://www.youtube.com/watch?v=tnHlB8aQp3Y",
     "startTime": "00:00:00",
     "endTime": "00:02:25",
-    "Notes": null
-  },
-  {
-    "Video-label": "relaxed-2",
-    "Video-ID": 6,
-    "Duration (in ms)": 146750,
-    "Source (Year)": "Natural World: Zambezi (2012)",
-    "Source--URL": "https://www.imdb.com/title/tt2496558/?ref_=fn_tt_tt_1",
-    "Video Available at URL": "http://www.hddocumentary.com/bbc-natural-world-zambezi-2012/",
-    "startTime": "00:30:47",
-    "endTime": "00:33:13",
     "Notes": null
   },
   {
@@ -104,7 +82,7 @@
     "Duration (in ms)": 197000,
     "Source (Year)": "Shutter (2004)",
     "Source--URL": "https://www.imdb.com/title/tt0440803/?ref_=nv_sr_2",
-    "Video Available at URL": "https://www.youtube.com/watch?v=dVbWL51L4Ms",
+    "url": "https://www.youtube.com/watch?v=dVbWL51L4Ms",
     "startTime": "00:02:27 00:05:53",
     "endTime": "00:04:46 00:06:51",
     "Notes": "Clip 1 and 2 stitched. Clip 1 --  1st scene.  Clip 2 --  2nd scene."
@@ -115,20 +93,9 @@
     "Duration (in ms)": 143750,
     "Source (Year)": "Mama (2008)",
     "Source--URL": "https://www.imdb.com/title/tt1315885/",
-    "Video Available at URL": "https://www.youtube.com/watch?v=WRqS6pBC42w",
+    "url": "https://www.youtube.com/watch?v=WRqS6pBC42w",
     "startTime": "00:01:02",
     "endTime": "00:03:26",
-    "Notes": null
-  },
-  {
-    "Video-label": "startVid",
-    "Video-ID": 10,
-    "Duration (in ms)": 101500,
-    "Source (Year)": "Great Barrier Reef (2012)",
-    "Source--URL": "https://www.imdb.com/title/tt2198631/?ref_=ttep_ep2",
-    "Video Available at URL": "https://www.dailymotion.com/video/xnkj6a",
-    "startTime": "00:14:16",
-    "endTime": "00:15:57",
     "Notes": null
   }
 ]

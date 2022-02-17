@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import screenfull from 'screenfull';
 import ReactPlayer from 'react-player';
@@ -8,6 +8,7 @@ import './common/scss/video.css';
 import fullScreenOn from './common/images/fullscreen.svg';
 import fullScreenExit from './common/images/fullscreen-exit.svg';
 import volumeUp from './common/images/volume-up.svg';
+import videosJSON from './videos.json';
 // import { Slider, Direction } from 'react-player-controls';
 
 function App() {
@@ -27,7 +28,20 @@ function App() {
     volumeOpen: false,
     dropdownOpen: false,
     fullscreen: false,
+    index: 0,
+    videos: [],
   });
+
+  useEffect(() => {
+    setState({
+      ...state,
+      videos: videosJSON,
+    });
+  }, []);
+
+  const _setIndex = () => {
+    return state.index === state.videos.length - 1 ? 0 : state.index + 1;
+  };
 
   const load = (url) => {
     setState({
@@ -137,7 +151,7 @@ function App() {
 
   const handleEnded = () => {
     console.log('onEnded');
-    setState({ ...state, playing: false });
+    setState({ ...state, index: _setIndex() });
   };
 
   const handleDuration = (duration) => {
@@ -199,38 +213,13 @@ function App() {
       </Row> */}
       <Row className='justify-content-center h-100 align-items-center'>
         <Col xs='7' className='h-50'>
-          <div
-            className='player-wrapper h-100 d-flex justify-content-center'
-            ref={playerWrapper}
-          >
+          <div className='player-wrapper h-100 d-flex justify-content-center'>
+            {console.log('loaded', videosJSON[state.index].url)}
             <ReactPlayer
               className='react-player'
-              ref={player}
-              url='https://www.youtube.com/watch?v=Sv6dMFF_yts'
-              width='100%'
-              height='100%'
-              light='https://img.youtube.com/vi/Sv6dMFF_yts/0.jpg'
-              pip={state.pip}
-              playing={state.playing}
-              controls={state.controls}
-              loop={state.loop}
-              playbackRate={state.playbackRate}
-              volume={state.volume}
-              muted={state.muted}
-              onStart={() =>
-                setState({ ...state, visible_button_refresh: true })
-              }
-              onPlay={handlePlay}
-              onEnablePIP={handleEnablePIP}
-              onDisablePIP={handleDisablePIP}
-              onPause={handlePause}
-              onBuffer={() => console.log('onBuffer')}
-              onSeek={(e) => console.log('onSeek', e)}
+              url={videosJSON[state.index].url}
               onEnded={handleEnded}
-              onError={(e) => console.log('onError', e)}
-              onProgress={handleProgress}
-              onDuration={handleDuration}
-              onReady={() => handlePlayPause()}
+              playing
             />
             {state.visible_button_refresh && (
               <Row className='video-controller justify-content-between'>
